@@ -1,0 +1,1286 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sess",
+				"sessionID"
+			],
+			[
+				"pin",
+				"pinVal"
+			],
+			[
+				"sample",
+				"sampleCount"
+			],
+			[
+				"tot",
+				"totalVal"
+			],
+			[
+				"sam",
+				"sampleCount"
+			],
+			[
+				"is",
+				"isNewRequest"
+			],
+			[
+				"Auct",
+				"AuctionUserObject"
+			],
+			[
+				"requ",
+				"requestID"
+			],
+			[
+				"req",
+				"requestID"
+			],
+			[
+				"get",
+				"getPreviousRequestID"
+			],
+			[
+				"re",
+				"requestID"
+			],
+			[
+				"requestID",
+				"setRequestID"
+			],
+			[
+				"retur",
+				"returnedSeed"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"user",
+				"userID"
+			],
+			[
+				"succ",
+				"success"
+			],
+			[
+				"SEAL",
+				"SealedObject"
+			],
+			[
+				"seal",
+				"sealObject"
+			],
+			[
+				"stat",
+				"staticUsername"
+			],
+			[
+				"sta",
+				"staticUsername"
+			],
+			[
+				"st",
+				"staticUserID"
+			],
+			[
+				"set",
+				"setObject"
+			],
+			[
+				"auct",
+				"auctionID"
+			],
+			[
+				"start",
+				"startingPrice"
+			],
+			[
+				"Au",
+				"AUEncryptionObject"
+			],
+			[
+				"retu",
+				"returnObject"
+			],
+			[
+				"return",
+				"returnObject"
+			],
+			[
+				"AJ",
+				"AUEncryptionObject"
+			],
+			[
+				"entr",
+				"entryCount"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"curre",
+				"currentUser"
+			],
+			[
+				"sea",
+				"sealedComparison"
+			],
+			[
+				"getuser",
+				"getUserID"
+			],
+			[
+				"Seal",
+				"SealedObject"
+			],
+			[
+				"gen",
+				"generateKeys"
+			],
+			[
+				"Auc",
+				"AuctionUserObject"
+			],
+			[
+				"remove",
+				"removeLoader"
+			],
+			[
+				"error",
+				"errorResponse"
+			],
+			[
+				"err",
+				"errorResponse"
+			],
+			[
+				"tour",
+				"tourPoint"
+			],
+			[
+				"poi",
+				"pointsAdded"
+			],
+			[
+				"pol",
+				"polylineArray"
+			],
+			[
+				"clic",
+				"clickable"
+			],
+			[
+				"curr",
+				"currentTourIndex"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"ta",
+				"tappedInd"
+			],
+			[
+				"i",
+				"index"
+			],
+			[
+				"video",
+				"videoWrap"
+			],
+			[
+				"htl",
+				"htmlString"
+			],
+			[
+				"getUser",
+				"getUserID"
+			],
+			[
+				"prom",
+				"promptMessage"
+			],
+			[
+				"reser",
+				"reservePrice"
+			],
+			[
+				"store",
+				"storedUsername"
+			],
+			[
+				"pro",
+				"protected"
+			],
+			[
+				"sell",
+				"sellerInstance"
+			],
+			[
+				"sel",
+				"sellerInstance"
+			],
+			[
+				"Seller",
+				"SellerObject"
+			],
+			[
+				"Buyer",
+				"BuyerObject"
+			],
+			[
+				"Sell",
+				"SellerObject"
+			],
+			[
+				"gener",
+				"generateSellers"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"img",
+				"imgURL"
+			],
+			[
+				"c",
+				"create"
+			],
+			[
+				"html",
+				"htmlString"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"contr",
+				"controlsWrap"
+			],
+			[
+				"addL",
+				"addListenerOnce"
+			],
+			[
+				"api",
+				"apiKey"
+			],
+			[
+				"par",
+				"partTimeShoppingList"
+			],
+			[
+				"reco",
+				"recommendation"
+			],
+			[
+				"recomm",
+				"recommendationArray"
+			],
+			[
+				"appen",
+				"appendTo"
+			],
+			[
+				"op",
+				"optionArray"
+			],
+			[
+				"no",
+				"noOfWeeks"
+			],
+			[
+				"plus",
+				"plusButton"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"shopp",
+				"shoppingListMenu"
+			],
+			[
+				"part",
+				"partTimeJobOptions"
+			],
+			[
+				"optio",
+				"optionsOpening"
+			],
+			[
+				"tex",
+				"textInput"
+			],
+			[
+				"jobs",
+				"jobsShoppingListMenu"
+			],
+			[
+				"other",
+				"otherShoppingList"
+			],
+			[
+				"opt",
+				"option"
+			],
+			[
+				"item",
+				"item-description"
+			],
+			[
+				"close",
+				"closeAuction"
+			],
+			[
+				"Auction",
+				"AuctionObject"
+			],
+			[
+				"Aucti",
+				"AuctionObject"
+			],
+			[
+				"print",
+				"printMessage"
+			],
+			[
+				"pr",
+				"printMessage"
+			],
+			[
+				"auc",
+				"auctionID"
+			],
+			[
+				"pri",
+				"printMessage"
+			],
+			[
+				"men",
+				"menuOption"
+			],
+			[
+				"Selle",
+				"SellerImplementation"
+			],
+			[
+				"calcul",
+				"calculateNumberOfItems"
+			],
+			[
+				"check",
+				"checkout-total"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"summ",
+				"summary-recommendation"
+			],
+			[
+				"checkout",
+				"checkoutPW"
+			],
+			[
+				"rec",
+				"recommendationString"
+			],
+			[
+				"based",
+				"basedOnString"
+			],
+			[
+				"calc",
+				"calculateTotal"
+			],
+			[
+				"option",
+				"optionsOpening"
+			],
+			[
+				"in",
+				"inline-table"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"number",
+				"numberOfTimes"
+			],
+			[
+				"sho",
+				"shoppingOptions"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"call",
+				"callCheckoutRemove"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"list",
+				"listWrap"
+			],
+			[
+				"width",
+				"width-container"
+			],
+			[
+				"rece",
+				"receiptItem"
+			],
+			[
+				"s",
+				"selectedItem"
+			],
+			[
+				"shop",
+				"shoppingList"
+			],
+			[
+				"app",
+				"appendTo"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"total",
+				"totalWrapper"
+			],
+			[
+				"to",
+				"totalWrapper"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"append",
+				"appendTo"
+			],
+			[
+				"pop",
+				"popup"
+			],
+			[
+				"te",
+				"table-cell"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"the",
+				"theme-g"
+			],
+			[
+				"nu",
+				"numberOfTimes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Library/WebServer/Documents/index.html",
+			"settings":
+			{
+				"buffer_size": 3211,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 14004,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "RiftSandbox.js",
+			"settings":
+			{
+				"buffer_size": 9438,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/James/Downloads/RiftSketch-master/js/index.js",
+		"/Users/James/Downloads/RiftSketch-master/index.html",
+		"/Library/WebServer/Documents/js/DeviceManager.js",
+		"/Library/WebServer/Documents/index.html",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/AUEncryptionObject.java",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/SellerClient.java",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/ClientProgram.java",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/BuyerClient.java",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/AuctionObject.java",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/AuctionUserObject.java",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/AuctionServiceImplementation.java",
+		"/Users/James/Library/Mobile Documents/com~apple~CloudDocs/ASM/fyp.asm",
+		"/Users/James/Desktop/oculus/test.html",
+		"/Library/WebServer/Documents/js/index.js",
+		"/Library/WebServer/Documents/js/RiftSandbox.js",
+		"/Users/James/Downloads/cinder_0.8.6_mac/Welcome.html",
+		"/Users/James/Desktop/FYP/FYP2.py",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/AuctionService.java",
+		"/Users/James/Desktop/FYP/FYP.py",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/Sealer.java",
+		"/Users/James/Desktop/FYP/FYP-TEST.py",
+		"/Users/James/Desktop/FYP/FYP-TEST",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/Server.java",
+		"/Users/James/Desktop/aek/datacapture.html",
+		"/Users/James/Desktop/aek/Finance.html",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/ServerPacket.java",
+		"/Users/James/Desktop/SCC311/SCC.311_CodeRetrievalExercise/ServerComms.java",
+		"/Users/James/Desktop/SCC311/SCC.311_CodeRetrievalExercise/Client_request.java",
+		"/Users/James/Desktop/SCC311/SCC.311_CodeRetrievalExercise/Server_response.java",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/ServerResponse.java",
+		"/Users/James/Desktop/SCC311/SecureAuctioningSystem/keys/test2-pub.key",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/AuctionObject.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/SellerClient.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/ClientProgram.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/BuyerClient.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/AuctionUserObject.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/AuctionService.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/AuctionServiceImplementation.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/Server.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/AuctionUser.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/AuctionUserImplementation.java",
+		"/Users/James/Desktop/aek/DayInTheLife.html",
+		"/Users/James/Desktop/aek/tour.html",
+		"/Users/James/Desktop/aek/Virtual_tour.html",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/BuyerObject.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/SellerImplementation.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/BuyerImplementation.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/Seller.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/Buyer.java",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/AuctionObjectImplementation.java",
+		"/Users/James/Desktop/aek/tour-google.html",
+		"/Users/James/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/E322BFE7-91C8-4FA4-8CDC-35055E78CC9A/tmp.json",
+		"/Users/James/Desktop/aek/brewGame.html",
+		"/Users/James/Desktop/aek/Virtual_tour_historical",
+		"/Users/James/Desktop/aek/BusTimetable.html",
+		"/Users/James/Desktop/SCC311/BasicAuctioningSystem/SellerInterface.java",
+		"/Users/James/Desktop/aek/template.html",
+		"/Users/James/Downloads/James Devine - Coursework/ServerComms.java",
+		"/Users/James/Desktop/FYP/Document/v1/master.bib",
+		"/Users/James/Desktop/FYP/Document/v1/FYPNotes.bib",
+		"/Users/James/Desktop/Auto Enrolment - General Notice.pdf",
+		"/Users/James/Desktop/SCC311/SCC.311_CodeRetrievalExercise/CW_server_interface.java",
+		"/Users/James/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/F084F80B-ABFA-4913-AFB6-D3766D026A7F/33040001.key",
+		"/Users/James/Desktop/SCC311/SCC.311_CodeRetrievalExercise/Driver.java",
+		"/Users/James/Desktop/aek/accommodation.html",
+		"/Users/James/Desktop/aek/events.html",
+		"/Applications/microchip/mplabx/mpasmx/p16f1788.inc",
+		"/Users/James/Desktop/aek/windticker.js",
+		"/Users/James/Desktop/aek/events",
+		"/Users/James/Desktop/SCC311/SCC.311_CodeRetrievalExercise/ServerImplemented.java",
+		"/Users/James/Desktop/SCC311/SCC.311_CodeRetrievalExercise/server_comms.java",
+		"/Users/James/Desktop/aek/conf.json",
+		"/Users/James/Desktop/Virtual_tour.html",
+		"/Users/James/Downloads/welcomeAET.html",
+		"/Users/James/Downloads/Sibelius Scorch File converter 1.0/SCORA.cmd",
+		"/Users/James/Downloads/Sibelius Scorch File converter 1.0/SCORA-install.cmd",
+		"/Users/James/Desktop/qts/insert_qts.py",
+		"/Users/James/Desktop/insert_qts.py",
+		"/Users/James/Downloads/person.xsd",
+		"/Volumes/allusers/admin/tags.php",
+		"/Volumes/allusers/api/user/register_user_without_fb.php",
+		"/Volumes/allusers/users/profiles/us5405ee7120744/profile.xml",
+		"/Volumes/allusers/users/profiles/us540090cb9d0b7/profile.xml",
+		"/Users/James/Desktop/NoviPackaged/Code/www/html/api/shared/databases.php",
+		"/Volumes/allusers/api/shared/facebook_categories_to_db.php",
+		"/Volumes/allusers/api/shared/XMLGenerator.php",
+		"/Volumes/allusers/users/profiles/us53ff7ccd969e6/profile.xml",
+		"/Volumes/allusers/users/profiles/us53fc9745cbe35/profile.xml",
+		"/Volumes/allusers/admin/edit_tag.php",
+		"/Volumes/allusers/api/shared/encrypt-decrypt.php",
+		"/Volumes/allusers/api/user/register_user.php",
+		"/Volumes/allusers/admin/index.php",
+		"/Volumes/allusers/classes/advert.php",
+		"/Volumes/allusers/adverts.php",
+		"/Volumes/allusers/admin/register_sign.php",
+		"/Volumes/allusers/admin/header.inc.php",
+		"/Volumes/allusers/create_advert.php",
+		"/Volumes/allusers/admin/view_sign.php",
+		"/Volumes/allusers/api/user/get_user_tags.php",
+		"/Volumes/allusers/api/user/register_user_mac_address.php",
+		"/Volumes/allusers/index.php",
+		"/Volumes/allusers/subscript_root.xml",
+		"/Volumes/allusers/classes/sign.php",
+		"/Volumes/allusers/js/distance_widget.js",
+		"/Volumes/allusers/api/digital-sign/dsdatabase.php",
+		"/Users/James/Library/Application Support/Sublime Text 2/Packages/User/sublime-better-completion-setting.sublime-settings",
+		"/Volumes/allusers/adverts/profiles/advert53f1d4b536e06/profile.xml",
+		"/Volumes/allusers/api/digital-sign/get_sign_details copy.php",
+		"/Volumes/allusers/adverts/profiles/advert53f1c8266e59a/profile.xml",
+		"/Users/James/Desktop/yarely_frontend_core_scheduler_scheduler.py.log.2014-08-14",
+		"/Users/James/Desktop/yarely_frontend_core_scheduler_scheduler.py.log",
+		"/Volumes/allusers/admin/login.php",
+		"/Volumes/allusers/api/advert/get_adverts[DEPRECATED].php",
+		"/Users/James/Downloads/jQuery-Tags-Input-master/example.html",
+		"/Volumes/allusers/styles/novi.css",
+		"/Volumes/allusers/api/advert/get_adverts.php",
+		"/Volumes/allusers/create_advert_advanced.php",
+		"/Users/James/Downloads/getID3-1.9.8-20140511/README.md",
+		"/Volumes/allusers/adverts/profiles/advert53eca81f39596/profile.xml",
+		"/Volumes/allusers/view_advert.php",
+		"/Volumes/allusers/api/user/user-likes.php",
+		"/Volumes/allusers/getid3/getid3.php",
+		"/Users/James/Desktop/fb.modes",
+		"/Volumes/allusers/AJAXCalls/getDisplays.php",
+		"/Volumes/allusers/styles/jquery.tagsinput.css",
+		"/Volumes/allusers/js/jquery.tagsinput.js",
+		"/Volumes/allusers/users/profiles/us53dd1213883cf/profile.xml",
+		"/Volumes/allusers/api/digital-sign/get_sign_details.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ROTATION_RATE",
+			"userID",
+			"staticUserID",
+			"auenc",
+			"status",
+			"auenc",
+			"sealObject",
+			"popup",
+			"getSub",
+			"aek.c",
+			"aek.click",
+			"h2",
+			"red",
+			"redTe",
+			"them",
+			"the",
+			"theme",
+			"theme-g",
+			"input",
+			"data",
+			"for",
+			"addLoader",
+			"s",
+			"b",
+			"s",
+			"b",
+			"sellers",
+			"lancs",
+			"partTimeShoppingList",
+			"otherShoppingList",
+			"add",
+			"calculateBudget",
+			"button",
+			"green",
+			"shoppingList",
+			"next",
+			"addToCache",
+			"count",
+			"isInCache",
+			"slcAmount",
+			"36",
+			"getMyStops",
+			"addLoader",
+			"setFavourate",
+			"Favoura",
+			"getMyStops",
+			"populateFavourates",
+			"getMyStopsRender",
+			"populateFavourates",
+			"In cache and expired",
+			"addToCache",
+			"getMyStopsRender",
+			"font",
+			"isinFa",
+			"isin",
+			"load",
+			"getBusStop",
+			"isInFavourate",
+			"FAVOURATES",
+			"favourites",
+			"!\")",
+			"addAlert",
+			"reminder",
+			"youtube",
+			"cats",
+			"we are gamers",
+			"alice",
+			"red",
+			"oops",
+			"list",
+			"ajax",
+			"direction",
+			"{\n",
+			"details",
+			"getScreen",
+			"body",
+			"getScreen",
+			"locationDetail",
+			"details",
+			"renderVideos",
+			"syncYoutube",
+			"blue",
+			"aek",
+			"onLo",
+			"on",
+			"nav",
+			"show",
+			"service",
+			"places",
+			"campusm",
+			"669",
+			"map",
+			"location",
+			"fbID",
+			"table",
+			"signdb",
+			"sucess",
+			"updateText",
+			"constraints not met",
+			"updateInputField",
+			"toBool",
+			"1920",
+			"minimum",
+			"adverttags",
+			"lower",
+			"tags",
+			"$this->signtags",
+			"initial",
+			"auto",
+			"float",
+			"0",
+			"lef",
+			"margin",
+			"align",
+			"left",
+			"align",
+			"center",
+			"color",
+			"addb",
+			"adQuery",
+			"tab",
+			"signID",
+			"ppc",
+			"drawChart",
+			"updatePie",
+			"update",
+			"updateinputfield",
+			"drawTag"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"a"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Library/WebServer/Documents/index.html",
+					"settings":
+					{
+						"buffer_size": 3211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "fill",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.js",
+					"settings":
+					{
+						"buffer_size": 14004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								921,
+								921
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "fill",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1161.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "RiftSandbox.js",
+					"settings":
+					{
+						"buffer_size": 9438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1025,
+								1025
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "fill",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true
+}
