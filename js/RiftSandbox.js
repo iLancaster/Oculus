@@ -4,8 +4,9 @@ var RiftSandbox = (function () {
   var constr = function (width, height) {
     this.width = width;
     this.height = height;
+    this.flag = 0;
     window.HMDRotation = this.HMDRotation = new THREE.Quaternion();
-    this.BasePosition = new THREE.Vector3(0, 1.5, -2);
+    this.BasePosition = new THREE.Vector3(-400, 7, -150);
     this.HMDPosition = new THREE.Vector3();
     this.BaseRotation = new THREE.Quaternion();
     this.plainRotation = new THREE.Vector3();
@@ -30,9 +31,13 @@ var RiftSandbox = (function () {
     // create scene
     this.scene = new THREE.Scene();
 
+    //this.scene.fog = new THREE.FogExp2( 0xefd1b5, 0.1 );
+
     this.camera = new THREE.PerspectiveCamera(
       75, this.width / this.height, 0.1, 1000 );
     this.camera.position.copy(this.BasePosition);
+
+    //this.camera.position.set(-220,500,0);
 
     this.cameraPivot = new THREE.Object3D();
     this.scene.add(this.cameraPivot);
@@ -43,15 +48,30 @@ var RiftSandbox = (function () {
     this.cameraRight = new THREE.PerspectiveCamera(75, 4/3, 0.1, 1000);
     this.cameraPivot.add( this.cameraRight );
 
-    var maxAnisotropy = this.renderer.getMaxAnisotropy();
-    var groundTexture = THREE.ImageUtils.loadTexture('img/background.png');
-    groundTexture.anisotropy = maxAnisotropy;
-    groundTexture.wrapS = groundTexture.wrapT = THREE.RepeatWrapping;
-    groundTexture.repeat.set( 1000, 1000 );
-    var ground = new THREE.Mesh(
-      new THREE.PlaneGeometry( 1000, 1000 ),
-      new THREE.MeshBasicMaterial({map: groundTexture}) );
-    ground.rotation.x = -Math.PI / 2;
+    var testData=JSON.parse(data);
+
+    console.log("TEST",testData);
+
+    var terrain = testData;
+
+    //console.log(terrain);
+
+    var geometry = new THREE.PlaneGeometry(200, 200, 271, 148);
+    for (var i = 0, l = geometry.vertices.length; i < l; i++) {
+      //console.log(testData[0][i]);
+      geometry.vertices[i].z = testData[0][i];
+    }
+
+    
+    var image = document.createElement( 'img' );
+    image.src = testData[1][0];
+    var texture = new THREE.Texture( image );
+    texture.needsUpdate = true;
+    
+    
+    var ground = new THREE.Mesh(geometry,new THREE.MeshBasicMaterial({map: texture}));
+    ground.rotation.set(67.5,0,0);
+    ground.scale.set(15,15,15);
     this.scene.add(ground);
 
     var oldAdd = this.scene.add;
@@ -290,10 +310,17 @@ var RiftSandbox = (function () {
     var rotatedHMDPosition = new THREE.Vector3();
     rotatedHMDPosition.copy(this.HMDPosition);
     rotatedHMDPosition.applyQuaternion(this.BaseRotation);
-    this.cameraPivot.position.copy(this.BasePosition).add(rotatedHMDPosition);
+    if(this.flag===0){
+      console.log("is zero");
+      this.cameraPivot.position.copy(this.BasePosition).add(rotatedHMDPosition);
+    }else{
+      console.log("is one");
+      this.cameraPivot.position.set( -300, 400, -200).add(rotatedHMDPosition);
+    }
   };
 
   constr.prototype.setVelocity = function (velocity) {
+    console.log("VELO",velocity);
     this._rampUp = velocity > this._targetVelocity;
     this._rampRate = Math.abs(velocity - this._targetVelocity) * 0.1;
     this._targetVelocity = velocity;

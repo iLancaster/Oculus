@@ -1,8 +1,6 @@
 /* global angular, DeviceManager, RiftSandbox, Mousetrap */
+testData =[];
 
-$.ajax('http://maps.googleapis.com/maps/api/elevation/json?locations=40.714728,-73.998672').done(function(data){
-
-var terrain = data
 (function () {
 'use strict';
 
@@ -11,36 +9,25 @@ var File = (function () {
     this.name = name || 'Example';
     var defaultContents = ('\
       var t3 = THREE;\n\
-      var light = new t3.PointLight();\n\
-      light.position.set(10, 15, 9);\n\
+      var terrain = testData\n\
+      var geometry = new THREE.PlaneGeometry(200, 200, 271, 148);\n\
+      var light = new t3.DirectionalLight( 0xffffff, 1 );\n\
+      light.position.set(-400, 1, 0);\n\
       scene.add(light);\n\
-      var makeCube = function (x, y, z) {\n\
-        var cube = new t3.Mesh(\n\
-          new t3.BoxGeometry(1, 1.1, 1),\n\
-          new t3.MeshLambertMaterial({color: \'red\'})\n\
-        );\n\
-        cube.scale.set(1, 1, 1);\n\
-        cube.position.set(1, 0, -1).add(\n\
-          new t3.Vector3(x, y, z));\n\
-        scene.add(cube);\n\
-        return cube;\n\
-      };\n\
         var loader = new t3.STLLoader();\n\
         loader.addEventListener( "load", function ( event ) {\n\
           console.log("LOADED");\n\
           var geometry = event.content;\n\
-          var material = new t3.MeshPhongMaterial( { ambient: 0xff5533, color: 0xff5533, specular: 0x111111, shininess: 200 } );\n\
+          var material = new t3.MeshPhongMaterial( { ambient: 0xff5533, color: 0xff5533, specular: 0x111111,} );\n\
           var mesh = new t3.Mesh( geometry, material );\n\
           var box = new THREE.Box3().setFromObject( mesh );\n\
-          mesh.position.set( 0, (box.size().y)/2, 0.6 );\n\
-          mesh.rotation.set( 0, 0, 0 );\n\
+          mesh.position.set( -400, 5, -150 );\n\
+          mesh.rotation.set( 67.5,0,100);\n\
           mesh.scale.set( 1, 1, 1);\n\
-          mesh.castShadow = true;\n\
-          mesh.receiveShadow = true;\n\
           console.log( box.min, box.max, box.size() );\n\
           scene.add( mesh );\n\
         } );\n\
-        loader.load("./stl/slotted_disk.stl" );\
+        loader.load("./stl/Castle-Wall.stl" );\
     '.replace(/\n {6}/g, '\n').replace(/^\s+|\s+$/g, ''));
     this.contents = contents === undefined ? defaultContents : contents;
     this.selected = true;
@@ -124,11 +111,7 @@ angular.module('index', [])
 
     var test = [];
 
-    $.ajax('http://maps.googleapis.com/maps/api/elevation/json?locations=40.714728,-73.998672').done(function(){
-      $scope.sketch = new Sketch(files);
-    }).fail(function(){
-      $scope.sketch = new Sketch(files);
-    });
+    $scope.sketch = new Sketch(files);
 
     // TODO: Most of this should be in a directive instead of in the controller.
     var mousePos = {x: 0, y: 0};
@@ -225,6 +208,8 @@ angular.module('index', [])
       this.previousFrame = frame;
     }.bind(this));
 
+    var flag=0;
+
     OAuth.initialize('bnVXi9ZBNKekF-alA1aF7PQEpsU');
     var apiCache = {};
     var api = _.throttle(function (provider, url, data, callback) {
@@ -257,7 +242,7 @@ angular.module('index', [])
       false
     );
 
-    $scope.is_editor_visible = true;
+    $scope.is_editor_visible = false;
     var domElement = this.riftSandbox.container;
     this.bindKeyboardShortcuts = function () {
       Mousetrap.bind('alt+v', function () {
@@ -277,8 +262,11 @@ angular.module('index', [])
         return false;
       }.bind(this));
       Mousetrap.bind('alt+e', function () {
-        $scope.is_editor_visible = !$scope.is_editor_visible;
-        if (!$scope.$$phase) { $scope.$apply(); }
+          if(this.riftSandbox.flag===0)
+            this.riftSandbox.flag=1;
+          else
+            this.riftSandbox.flag=0;
+          this.riftSandbox.updateCameraPositionRotation();
         return false;
       }.bind(this));
       Mousetrap.bind('alt+u', function () {
@@ -306,7 +294,7 @@ angular.module('index', [])
         return false;
       });
 
-      var MOVEMENT_RATE = 1;
+      var MOVEMENT_RATE = 10;
       var ROTATION_RATE = 0.1;
 
       Mousetrap.bind('w', function () {
@@ -317,14 +305,10 @@ angular.module('index', [])
       }.bind(this), 'keyup');
 
       Mousetrap.bind('s', function () {
-        if (!$scope.is_editor_visible) {
           this.riftSandbox.setVelocity(-MOVEMENT_RATE);
-        }
       }.bind(this), 'keydown');
       Mousetrap.bind('s', function () {
-        if (!$scope.is_editor_visible) {
           this.riftSandbox.setVelocity(0);
-        }
       }.bind(this), 'keyup');
 
       Mousetrap.bind('a', function () {
@@ -427,6 +411,3 @@ angular.module('index', [])
     }.bind(this));
   }]);
 }());
-}).fail(function(){
-      console.log("Unable to load terrain");
-    });
