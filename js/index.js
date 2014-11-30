@@ -14,6 +14,9 @@ var File = (function () {
       var light = new t3.DirectionalLight( 0xffffff, 1 );\n\
       light.position.set(-400, 1, 0);\n\
       scene.add(light);\n\
+      var light2 = new t3.DirectionalLight( 0xffffff, 1 );\n\
+      light2.position.set(-400, 1, -300);\n\
+      scene.add(light2);\n\
         var loader = new t3.STLLoader();\n\
         loader.addEventListener( "load", function ( event ) {\n\
           console.log("LOADED");\n\
